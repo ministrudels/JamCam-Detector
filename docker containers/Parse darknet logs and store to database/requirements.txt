@@ -1,0 +1,2 @@
+docker==4.0.1
+pymongo[tls,srv]==3.8.0
