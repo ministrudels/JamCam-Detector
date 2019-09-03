@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tflcams-243609",
+  "private_key_id": "49976bfbbb2eacb1c3158421a4723ca284ab13e0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDk2mW0D1AhdpZZ\nZjsJjtR2a847BXM023Nn4sYhL7NZWVGSx3rkN55vQDDpI3ywAWnirPUsKw22Hidp\nBp4zTOXhnqbFJqGGBlo4hA7wv7yo7IGOL6FVnsZNma4FTsj1XBxOL7IucqxsE8Lf\njDZ12CbJ+VNS+TeseT1pMWKX0BeoEiEXm0iVeXAc5zdTbHly4FuWqwFxRIgHYs8O\n7dAY041ZDedriR+07gVxmPLYD7rPt7mmHAoiAQP1b7SbZSVaSsPRr6bvoeXi5OSs\n75oQzaNXLxBuRVM5Sbsr4EAOHh7nOP1sywKsFuoy7apcQ9h5ZM4Jo94kh7J2IwWO\n4DKU2wZTAgMBAAECggEARlBz/ybVT/LHryAh84XW8aud6bR6+TqT8s9SYM/vIvy2\ne4qez4/nNfdbD8a/gLRufB74FWIFDHenVDWcVdbCqte8FccQycUZ41Nv47iFlsFT\n7QPlZhEqjJ0zQp46UGjEqaEt9ed14p8PuO+zq/GFuXjJiSzZVjzKCZAK4uok2pZi\nnIS8FgXzhdXk7ox9b4ZDthGRSzg7o134DqJLaJNkZUSpbiiWNOvhPDmCQhCOOVNj\n30gS6Q4NUKPtm9xnfFkOE2FlmX3nERBJ4Ap/Njsq1yFq4OQOq9zv/gHjsJ0uVda3\n3AUiaH54s7uNwcTFs/Y+sbl4c4p3XQKZARKdbZgcgQKBgQD39lDYKCeBEzHWhW37\nFoKvzCepCIZ59Vt2Pgi1sTqhH7WMWKFJeajbDFAjN13oNyDw9QnXrZ5Yw6qyrAdd\n9Aw9sIN5LpUUd1DoI0zuyCmzPd7nY/cFHRqBXecVuXkpSYbm7Kvm8CMlfAhPbEVF\nq8sold/7CaKIrpHbtXGn7KqIOwKBgQDsRYHc0CeaeFlmCXm2p/1p7j9Pf+mZxaAR\nw9irM2+q6zg7giYg6srVd8KtTnp9VyuEaVEGZop1GihMFUcoN1mMLPo6Oj3vpAjP\n4ir3wlrlzA/076v77kSjIxRMxygtNkuyYnX8vkfDq1lIqfyl0DHErVR9ISn7nFDo\ntZWd4JEwyQKBgQC4qdkFUcoxx0C7eT0x3E7Ra2Ix8WZs1zwZMBO+dFGsgvfqoGrl\nVFRbZa0cvPQTp1LCAEsnM2aUxouOaq1F3CVtn9IZ4oYl6sH3T6rQvYLIuRATFRB2\n33jI1UzukeVYyShNO/69iyMxnFB4DbL9MvamsA9RXpiL4C5CCLuvCoLp1wKBgB72\nDMpuzIHFe5GPdE+nO+IBwnIchPQNnag2TdJBb0SqhjfmGjD+E45dnzkuq4Z5Qc6c\nLm30SfiGcPlnYGe4uRdRXYj70NnyWOVE8fR9l4O9denW7maZFo16L1LQVkd2cfzy\nQhvYo3bUoWKQQ/dGjP8E56luCx5ZoZCdGvoRT3VhAoGBAJQbiXKbW1sC4oQBIhwp\nBYCO+XT/spdAab6LOWYp+cB4bIQe01J37bu6Efi5CQT1mR9USr7wM+ix3KajNP4A\nW7XYdTyNYL2XrYWFDBUfDaWpIVnUOdO9DMiGiUJcS+qfoiwdWtTf4VQ9VFoQAhGM\n6jYcvGozsmozj7JYv3MxxvKw\n-----END PRIVATE KEY-----\n",
+  "client_email": "tflcams-imperial@tflcams-243609.iam.gserviceaccount.com",
+  "client_id": "112435135518463374109",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tflcams-imperial%40tflcams-243609.iam.gserviceaccount.com"
+}

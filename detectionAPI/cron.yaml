@@ -1,0 +1,7 @@
+cron:
+- description: "update the JamCam response cache"
+  url: "/TFLcamera/update_JamCam_res"
+  schedule: every 1 minutes
+  retry_parameters:
+    job_retry_limit: 5
+    job_age_limit: 10m
