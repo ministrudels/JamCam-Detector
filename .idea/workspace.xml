@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7483fd0e-4535-4d7e-8b48-84edf31a158e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python scripts/Visualisation work/.ipynb_checkpoints/make-a-gif-map-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python scripts/Visualisation work/Cleaning data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python scripts/Visualisation/Cleaning data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python scripts/Visualisation work/Map visualisation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python scripts/Visualisation/Map visualisation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Input feeds from database/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/input_from_API/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Input feeds from database/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/input_from_db/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Input feeds from database/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/input_from_db/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Input feeds from database/yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/input_from_API/yolo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Input feeds from detectionAPI/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/input_from_db/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Input feeds from detectionAPI/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/input_from_API/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Input feeds from detectionAPI/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/input_from_API/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Input feeds from detectionAPI/yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/input_from_db/yolo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Parse darknet logs and store to database/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/parse_dn_logs/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Parse darknet logs and store to database/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/parse_dn_logs_db/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Parse darknet logs and store to database/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/parse_dn_logs_db/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Parse darknet logs and store to database/yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/parse_dn_logs_db/yolo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Parse darknet logs/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/parse_dn_logs_db/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Parse darknet logs/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/parse_dn_logs/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Parse darknet logs/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/parse_dn_logs/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/Parse darknet logs/yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/parse_dn_logs/yolo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/download video to volume/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/download_video_to_volume/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/download video to volume/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/download_video_to_volume/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker containers/download video to volume/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docker containers/download_video_to_volume/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell scripts/Scripts for debugging/detect_all_videos.sh" beforeDir="false" afterPath="$PROJECT_DIR$/shell scripts/Scripts for debugging/detect_all_videos.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell scripts/build container scripts/build_containers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/shell scripts/build container scripts/build_containers.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell scripts/build container scripts/build_detect_on_JamCam.sh" beforeDir="false" afterPath="$PROJECT_DIR$/shell scripts/build container scripts/build_detect_on_JamCam.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,19 +38,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="912">
-                <caret line="110" selection-start-line="110" selection-end-line="110" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shell scripts/build container scripts/build_detect_on_JamCam.sh">
+        <entry file="file://$PROJECT_DIR$/shell scripts/Scripts for debugging/create_debug_mp4s.sh">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -39,16 +52,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shell scripts/Scripts for debugging/create_debug_mp4s.sh">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/shell scripts/Scripts for debugging/detect_all_videos.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shell scripts/Scripts for debugging/detect_all_videos.sh">
+        <entry file="file://$PROJECT_DIR$/shell scripts/Scripts for debugging/improving_darknet.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="96" selection-start-line="6" selection-start-column="96" selection-end-line="6" selection-end-column="96" />
+            <state relative-caret-position="378">
+              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shell scripts/Scripts for debugging/Dev scripts.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-39" />
           </provider>
         </entry>
       </file>
@@ -61,8 +85,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/shell scripts/Scripts for debugging/test.sh" />
-        <option value="$PROJECT_DIR$/shell scripts/Scripts for debugging/detect_all_videos.sh" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/shell scripts/Scripts for debugging/detect_all_videos.sh" />
       </list>
     </option>
   </component>
@@ -76,7 +100,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,13 +110,24 @@
             <path>
               <item name="JamCam-Detector" type="b2602c69:ProjectViewProjectNode" />
               <item name="JamCam-Detector" type="462c0819:PsiDirectoryNode" />
+              <item name="detectionAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamCam-Detector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamCam-Detector" type="462c0819:PsiDirectoryNode" />
+              <item name="detectionAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="JamCam_detections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamCam-Detector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamCam-Detector" type="462c0819:PsiDirectoryNode" />
               <item name="docker containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JamCam-Detector" type="b2602c69:ProjectViewProjectNode" />
               <item name="JamCam-Detector" type="462c0819:PsiDirectoryNode" />
               <item name="docker containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Input feeds once from detection API" type="462c0819:PsiDirectoryNode" />
+              <item name="store videos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JamCam-Detector" type="b2602c69:ProjectViewProjectNode" />
@@ -103,7 +137,19 @@
             <path>
               <item name="JamCam-Detector" type="b2602c69:ProjectViewProjectNode" />
               <item name="JamCam-Detector" type="462c0819:PsiDirectoryNode" />
+              <item name="Python scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Visualisation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamCam-Detector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamCam-Detector" type="462c0819:PsiDirectoryNode" />
               <item name="shell scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamCam-Detector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamCam-Detector" type="462c0819:PsiDirectoryNode" />
+              <item name="shell scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="build container scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JamCam-Detector" type="b2602c69:ProjectViewProjectNode" />
@@ -115,6 +161,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,40 +195,28 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shell scripts/Scripts for debugging/test.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell scripts/Scripts for debugging/detect_all_videos.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="96" selection-start-line="6" selection-start-column="96" selection-end-line="6" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell scripts/Scripts for debugging/create_debug_mp4s.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shell scripts/Scripts for debugging/test.sh" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -193,6 +228,31 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shell scripts/build container scripts/build_detect_on_JamCam.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell scripts/Scripts for debugging/improving_darknet.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell scripts/Scripts for debugging/Dev scripts.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell scripts/Scripts for debugging/detect_all_videos.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell scripts/Scripts for debugging/create_debug_mp4s.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detectionAPI/JamCam_detections/res.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shell scripts/build container scripts/build_containers.sh">
