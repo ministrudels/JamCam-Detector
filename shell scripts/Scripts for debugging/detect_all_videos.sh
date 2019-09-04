@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 printf "\nBuilding input container\n"
-docker build --tag inputfeeds_db "docker containers/Input feeds from database/."
+docker build --tag inputfeeds_db "docker_containers/input_from_db/."
 
 printf "\nBuilding parsing container\n"
-docker build --tag parse_dn_to_db "docker containers/Parse darknet logs and store to database/."
+docker build --tag parse_dn_to_db "docker_containers/parse_dn_logs_db/."
 
 res=$(curl https://api.tfl.gov.uk/Place/Type/JamCam | jq -r .)
 
