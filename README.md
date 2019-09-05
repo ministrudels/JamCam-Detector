@@ -5,6 +5,10 @@ Running these pipelines accomplish:
  2) Generate object detections and store detection data to a MongoDB database
  3) Serve this data through a REST API
 
+The data generated may be used to get some cool insights from London's traffic cameras! Here a 
+plot showing the level of cars in London over 3 days.
+
+![](cars_London.gif)
 
 # System Requirements
 - Linux distribution - any which support  NVIDIA docker. See https://github.com/NVIDIA/nvidia-docker
