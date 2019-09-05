@@ -7,22 +7,33 @@ Running these pipelines accomplish:
 
 
 # System Requirements
-- Linux distribution - any which support  NVIDIA docker. See for more https://github.com/NVIDIA/nvidia-docker
-info
-- Docker version 19.03
+- Linux distribution - any which support  NVIDIA docker. See https://github.com/NVIDIA/nvidia-docker
 - NVIDIA GPU
 
-
-# Building the containers for
-1) ```chmod -R +x shell\ scripts/``` - To enable execute permissions on all files in shell scripts directory
-2) Build pipeline containers ``` ./shell\ scripts/build\ container\ scripts/build_containers.sh ```
-3) In some cases, your GPU will need a different darknet images. If it has Tensor cores, change the image being used
-   to ```ganhuanmin/gpudarknet:tensor_core``` in the ```detect``` scripts. You can verify is you are using the right image
-   by viewing the log output of the running gpu_darknet container.
+Install:
+- Docker version 19.03.
+- NVIDIA container toolkit. Follow the instructions here: https://github.com/NVIDIA/nvidia-docker
 
 
 
-# How to use locally: 
+## Build the containers
+To enable execute permissions on all files in shell scripts directory
+```
+chmod -R +x shell\ scripts/
+``` 
+
+Build pipeline containers 
+``` 
+./shell\ scripts/build_containers.sh 
+```
+
+In some cases, your GPU will need a different darknet images. If it has Tensor cores, change the image being used
+to ```ganhuanmin/gpudarknet:tensor_core``` in the ```detect``` scripts. You can verify is you are using the right image
+by viewing the log output of the running gpu_darknet container. If no output is being given, swap images.
+
+
+
+## How to use locally: 
 mp4 file named after its checksum are stored in ```~/TfL_videos``` directory on the host.
 Metadata and Detections are stored in the MongoDB.
 
@@ -57,7 +68,7 @@ try using the other gpudarknet image.
 
 
 
-# How to use on the cloud:
+## How to use on the cloud:
 mp4 file named after its checksum are stored in ```~/tfl-mp4-videos``` bucket in GCP.
 Metadata and Detections are stored in MongoDB
 
@@ -84,9 +95,7 @@ try using the other gpudarknet image.
 1) ```fill_detect_once.sh``` - Get freshest feeds from TFL and perform detections on them
 
 
-# Miscelaneous
-
-## Utility scripts
+## Other pipelines
 To generate the jpg detections of all images within a directory, run 
 ```
 docker run --rm -d --name debug -it --mount type=bind,source="$(pwd)"/debug_pictures,target=/debug_pictures --entrypoint "/bin/bash" output_detected_video
@@ -100,44 +109,31 @@ To generate detections of all the videos in a database, run
 detect_all_videos.sh
 ```
 
-To run the debug mp4 pipeline, run
+To run the debug mp4 pipeline, run. Exit the container when finished and the results will be in subdirectories in debug_pictures
 ```
 create_debug_mp4s.sh
 ```
 
-Exit the container when finished and the results will be i subdirectories in debug_pictures
+### Containers
+```download_video_to_volume``` Download a JamCam video to the specified volume
 
+```gpu_darknet``` YOLO darknet container for accelerated gpu computation 
 
+```gpu_darknet_tensorcore``` YOLO darknet container for accelerated gpu computation for GPUs with tensor cores
 
-##### Build scripts
-```build_fill_video.sh``` - Build containers for fill video script
+```input_from_API``` Send input to darknet container from deployed detectionAPI
 
-```build_detect_on_JamCam.sh``` - Build containers for detect script
+```input_from_db``` Send input to darknet container from database
 
-```build_create_debug_mp4s.sh``` - Build containers for create detected versions of TfL videos 
+```output_detected_video``` Create a detected version of a video
 
-##### Deploy pipeline scripts
-```fill_video_store.sh``` - Download TfL videos to GCS bucket and store checksum in DB
+```parse_dn_logs``` Receive input from STDOUT of darknet container and send detections to API
 
-```detect_on_TfL_API.sh``` - Run the live pipeline on a GPU machine on the TfLAPI
+```parse_dn_db``` Receive input from STDOUT of darknet container and send detections to database
 
-```detect_on_JamCam_detections_API.sh``` - Run the live pipeline on a GPU machine on the detectionAPI 
+```store_videos``` Sole container for pipeline to download videos and store them into a database
 
-```create_debug_mp4s.sh``` - Create detected versions of TfL videos and store them on GCS
-
-
-##### Containers
-```cpu_darknet``` - darknet container for cpu computation
-```gpu_darknet``` - darknet container for accelerated gpu computation
-```download_videos``` - Run on any machine. Downloads videos from TFL API and stores them in GCS
-```Input feeds once from *``` - Container to input feeds to a specified darknet container
-```output_detected_video``` - Create a detected version of a video
-```Parse darknet logs once ``` - Parse the logs of darknet container to extract the detections
-TODO:describe more containers
-
-##### Databases
-The TfLvideos database contains video details, including the video's checksum, and approximate datetime
-The videoDetections database contains the detections of each video
+```upload_video``` Upload the videos from target directory
 
 # Licensing
 Uses public sector information licensed under the Open Government Licence v3.0.
