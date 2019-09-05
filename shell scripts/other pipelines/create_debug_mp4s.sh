@@ -46,4 +46,3 @@ fi
     printf "\n Finished getting debug version of videos"
 
 #done
-
