@@ -86,7 +86,7 @@ Metadata and Detections are stored in MongoDB
     4) ```gcloud app deploy cron.yaml``` - Deploy scheduled cron job to update cached response object
 
 ### 2. Fill video store indefinitely
-1) Run fill_video_store_local.sh script ``` ./shell\ scripts/deploy\ cloud\ scripts/fill_video_store_bucket.sh ``` which 
+1) Run fill_video_store_bucket.sh script ``` ./shell\ scripts/deploy\ cloud\ scripts/fill_video_store_bucket.sh ``` which 
   will query the TFL api and add it download the video and create metadata
 
 ### 3. Detect on video store indefinitely
