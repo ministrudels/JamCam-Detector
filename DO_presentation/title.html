@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous" />
+    <style>
+        body{
+            margin: 0; padding: 10px; height: 100%; overflow: hidden; margin-center:20px; color:white;
+        }
+    </style>
+    <script src="http://gdo-apps.dsi.ic.ac.uk:9080/jquery.min.js"></script>
+</head>
+<body unselectable="on" class="unselectable">
+    <script>
+        function load() {
+            let output = '<strong style="color:#' + new URLSearchParams(location.search.slice(1)).get('color') + ';font-size:6em;"><table style="background:#ffffff00;padding:10px">' +
+                        '<tr><td style="text-align:center">' + new URLSearchParams(location.search.slice(1)).get('text') + '</td></tr>' +
+                        '</table></strong>';
+            $('<div>').addClass('bottom-right').css({ left: '44px', top: '44px', position: 'absolute' }).html(output).appendTo('body');
+        }
+        load();
+    </script>
+</body>
+</html>
