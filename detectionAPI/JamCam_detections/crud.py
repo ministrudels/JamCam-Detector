@@ -17,7 +17,7 @@ import requests
 
 from JamCam_detections import get_model
 from bson import ObjectId
-from flask import Blueprint, jsonify, Response, request
+from flask import Blueprint, jsonify, Response, request, render_template
 
 crud = Blueprint('crud', __name__)
 JamCam_res = requests.get("https://api.tfl.gov.uk/Place/Type/JamCam").json()

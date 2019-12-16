@@ -15,7 +15,7 @@
 import logging
 import os
 
-from flask import current_app, Flask, redirect, url_for
+from flask import current_app, Flask, redirect, url_for, send_file, render_template
 
 
 def create_app(config, debug=False, testing=False, config_overrides=None):
@@ -46,6 +46,12 @@ def create_app(config, debug=False, testing=False, config_overrides=None):
     def index():
         return redirect(url_for('crud.list'))
 
+    @app.route("/demo")
+    def show_site():
+        # return'hello'
+        return render_template('demo.html')
+
+
     # Add an error handler. This is useful for debugging the live application,
     # however, you should disable the output of the exception for production
     # applications.
@@ -75,3 +81,5 @@ def get_model():
             "No appropriate databackend configured. "
             "Please specify datastore, cloudsql, or mongodb")
     return model
+
+

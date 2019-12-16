@@ -76,7 +76,6 @@ else:
 # If using mongolab, the connection URI is available from the mongolab control
 # panel. If self-hosting on compute engine, replace the values below.
 if os.environ.get('GAE_INSTANCE'):
-    # MONGO_URI = 'mongodb+srv://TFLcams:dotflcams@cluster0-tqcsp.gcp.mongodb.net/test?retryWrites=true&w=majority'
     MONGO_URI = 'mongodb+srv://TFLcams:dotflcams@cluster0-tqcsp.gcp.mongodb.net/TFLJamCams?retryWrites=true&w=majority'
 else:
     MONGO_URI = 'mongodb://127.0.0.1:27017/test'
